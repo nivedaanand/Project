@@ -1,0 +1,13 @@
+Text summarization has been a popular research area in Natural Language Processing (NLP) for many years. Here are some notable works that have been done:
+
+Extractive Summarization: Early work in text summarization focused on extractive methods, which involve selecting key sentences from the original text to form the summary. For example, the LexRank algorithm, proposed by Güneş Erkan and Dragomir R. Radev in 2004, uses the concept of eigenvector centrality in graph-based ranking algorithms to summarize texts.
+
+Abstractive Summarization: More recent work has focused on abstractive methods, which involve generating new sentences. This is a more challenging problem and often involves the use of deep learning. For example, a paper by Ramesh Nallapati et al. in 2016 proposed a sequence-to-sequence model with attention and a novel data-recycling technique for abstractive text summarization.
+
+Pretrained Language Models: The introduction of large pretrained language models like BERT, GPT-2, and T5 has also had a significant impact on text summarization. These models are trained on a large corpus of text and can generate high-quality summaries with fine-tuning. For example, a paper by Iz Beltagy, Matthew E. Peters, and Arman Cohan in 2020 demonstrated that T5 could be used for both extractive and abstractive summarization.
+
+Evaluation Metrics: There has also been work on developing better evaluation metrics for text summarization. Traditional metrics like ROUGE are based on n-gram overlap between the generated summary and a reference summary, but they do not always correlate well with human judgment. More recent metrics like BERTScore and BLEURT use pretrained language models to capture semantic similarity.
+
+Datasets: The creation of large-scale datasets for text summarization has also been a significant contribution. For example, the CNN/Daily Mail dataset, created by Karl Moritz Hermann et al. in 2015, contains news articles paired with bullet-point summaries. These datasets have enabled the training of more sophisticated models and the evaluation of different summarization techniques.
+
+Applications: Text summarization techniques have been applied in various domains, including news summarization, legal document summarization, medical text summarization, and more. These applications often involve additional challenges, such as the need to handle domain-specific terminology or the need for high accuracy due to the critical nature of the information.
