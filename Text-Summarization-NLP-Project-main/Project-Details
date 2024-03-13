@@ -1,0 +1,22 @@
+Title: Text Summarization Project Report Using Daily CNN Model and SAMSum Data
+
+Introduction: The project aims to develop a text summarization model using the Daily CNN model and SAMSum dataset. 
+              Text summarization is a process of shortening long pieces of text into a concise summary that retains key information content and overall meaning.
+
+Methodology: The Daily CNN model, a sequence-to-sequence model, was used for this project. This model is known for its effectiveness in text summarization tasks. 
+             The SAMSum dataset, a large corpus of human-annotated dialogue summaries, was used for training and testing the model.
+
+Data Collection and Preprocessing: The SAMSum dataset was collected and preprocessed for the model. The dataset was cleaned, tokenized, and converted into a format suitable 
+                                  for the model. The dataset was then split into training, validation, and testing sets.
+
+Model Training: The Daily CNN model was trained on the preprocessed SAMSum dataset. The model was trained for several epochs until the loss on the validation set started to 
+                increase, indicating overfitting.
+
+Model Evaluation: The model was evaluated on the test set using various metrics such as ROUGE (Recall-Oriented Understudy for Gisting Evaluation) scores. The model showed 
+                  promising results, with high ROUGE scores indicating that the generated summaries were close to the reference summaries.
+
+Results and Discussion: The model was able to generate coherent and concise summaries for the given text. However, there were some instances where the model failed to capture 
+                        the key points in the text. Future work could focus on improving the model's ability to capture the key points in the text.
+
+Conclusion: The project demonstrated the effectiveness of the Daily CNN model in text summarization tasks using the SAMSum dataset. The model showed promising results, 
+            but there is still room for improvement. Future work could focus on improving the model's performance and exploring other models for text summarization.
