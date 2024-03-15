@@ -16,6 +16,7 @@ Model Evaluation: The model was evaluated on the test set using various metrics 
                   promising results, with high ROUGE scores indicating that the generated summaries were close to the reference summaries.
 
 
+
 Results and Discussion: The model was able to generate coherent and concise summaries for the given text. However, there were some instances where the model failed to capture 
                         the key points in the text. Future work could focus on improving the model's ability to capture the key points in the text.
 
